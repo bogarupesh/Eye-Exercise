@@ -1,27 +1,13 @@
-# Creating NodeJS and/or Web programs in Codio
 
-### Make a new file
-Use **File > New File...** or right-click in the file tree to create a new file. You can right-click in the file tree to rename or delete files.
+Eye Tracking Animation
+This project creates a captivating eye-tracking animation using HTML, CSS, and JavaScript. The eyes follow the movement of the mouse cursor within the browser window, giving the illusion of attentive, moving eyes.
 
-As Codio detects which file is in focus, simply put your cursor into whichever code editor you want to preview and use the "Preview Current File".
 
-### View site or Current file
-Use the Preview button (with the "play" icon) to see a preview of the website.
 
-![](https://global.codio.com/platform/readme.resources/PreviewMenuWeb.png)
+Files Included
+index.html: This file contains the HTML structure of the project.
+styles.css: This file contains the CSS styling for the eye elements.
+eyes.js: This file contains the JavaScript code responsible for the eye-tracking animation.
 
-Use the drop-down arrow to the right of the "Preview Website" option to change the button to view the current file. You can also configure your preview button to open the preview as a new tab inside Codio, or as a new tab in your browser.
-
-### Running Node
-Use the Run button (with the "rocketship" icon) to start the current NodeJS file. To stop node, press ctrl + c in the terminal.
-
-### Debug your Code
-Use the "Debug Current NodeJS File" on the far right of the top menu bar to launch the debugger targeting the NodeJS file your cursor is in.
-
-Use your browser's built in Developer Tools to debug other web projects such as HTML/CSS.
-
-### Reconfigure your Panels for easier development
-Use the **View > Panels** menu on the top tool bar to segment your screen.
-
-Simply drag the tab of the file or terminal (the part with the name) you want to move into the new panel.
-
+Description
+This project creates a pair of eyes using HTML and CSS. Each eye consists of a white background with a black circle representing the pupil (.ball). The JavaScript code tracks the movement of the mouse cursor (document.onmousemove) and adjusts the position of the pupils accordingly, creating an illusion of eyes following the cursor.

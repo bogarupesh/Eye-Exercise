@@ -1,0 +1,19 @@
+{
+  "name": "codiotests",
+  "version": "1.0.0",
+  "description": "### Make a new file Use **File > New File...** or right-click in the file tree to create a new file. You can right-click in the file tree to rename or delete files.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^29.3.1",
+    "jest-environment-jsdom": "^29.3.1",
+    "node-notifier": "^10.0.1"
+  }
+}
